@@ -1,10 +1,14 @@
+/* imports  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+/* common style  */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
 
+
+/* main tag style  */
 main {
     width:100%;
     display: flex;
@@ -12,10 +16,12 @@ main {
     flex-direction: column;
 }
 
+/* web page-name style  */
 #page-name {
     margin-left: 120px;
 }
 
+/* first section styles  */
 .section1 {
     display: flex;
     justify-content: space-between;
@@ -77,6 +83,8 @@ main {
 }
 
 
+
+/* second section styles  */
 .collections {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -152,6 +160,8 @@ main {
     margin-right: 60px;
 }
 
+
+/* third section styles  */
 .section3 {
     display: flex;
     justify-content: center;
@@ -182,6 +192,7 @@ main {
     margin-bottom: 20px;
 }
 
+/* footer styles  */
 footer {
     padding: 50px;
     text-align: center;
@@ -212,8 +223,9 @@ footer h1, footer p {
 }
 
 
-/* Media Queries */
 
+/* Media Queries */
+/* for small screen  */
 @media only screen and (max-width:688px) {
     .container {
         width: 100%;
@@ -254,7 +266,7 @@ footer h1, footer p {
     }
 }
 
-/* tablet devices */
+/* for tablet devices */
 @media only screen and (min-width:688px) and (max-width:992px) {
       .container {
         width: 100%;
